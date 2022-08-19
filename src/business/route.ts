@@ -1,11 +1,11 @@
 import * as express from 'express'
-import controller from './controller'
+import * as controller from './controller'
 
 var businessRouter = express.Router()
 
 // GET
 businessRouter.get('/', controller.getBusinesses)
-
+/*
 businessRouter.get('/:id', controller.getBusinessesID)
 
 // POST
@@ -15,6 +15,6 @@ businessRouter.post('/:id/review', controller.postBusinessIdReview)
 businessRouter.patch('/:id/review', controller.patchBusinessesIdReview)
 
 // DELETE
-businessRouter.delete('/:id/review', controller.deleteBusinessIdReview)
+businessRouter.delete('/:id/review', controller.deleteBusinessIdReview)*/
 
 export default businessRouter

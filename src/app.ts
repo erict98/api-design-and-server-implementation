@@ -1,4 +1,4 @@
-import express, {Request, Response, NextFunction, Application} from 'express';
+import express, {Request, Response, NextFunction, Application, request} from 'express';
 import userRouter from './user/route'
 import businessRouter from './business/route'
 
@@ -13,7 +13,11 @@ app.listen(PORT, ():void => {
     console.log(`Server is running on http://localhost:${PORT}.`)
 })
 
-app.use('/users', userRouter)
+var users = `example user`
+app.use('/users', (req:Request, res:Response, next:NextFunction) => {
+    res.locals.users = users
+    next
+}, userRouter)
 app.use('/businesses', businessRouter)
 
 
