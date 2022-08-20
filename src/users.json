@@ -1,0 +1,17 @@
+[
+    {
+        "id" : "1",
+        "businesses" : ["a","b","c"],
+        "reviews" : ["d"]
+    },
+    {
+        "id" : "2",
+        "businesses" : ["d","e","f"],
+        "reviews" : ["a"]
+    },
+    {
+        "name" : "3",
+        "businesses" : ["g","h","i"],
+        "reviews" : ["a"]
+    }
+]

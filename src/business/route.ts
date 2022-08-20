@@ -1,10 +1,18 @@
 import * as express from 'express'
+import { Collection } from '../data'
 import * as controller from './controller'
 
-var businessRouter = express.Router()
+var businessRouter = function(data: {}) {
+    var router = express.Router()
+
+    // GET
+    router.get('/', controller.getBusinesses(data))
+
+    return router
+}
 
 // GET
-businessRouter.get('/', controller.getBusinesses)
+//businessRouter.get('/', controller.getBusinesses)
 /*
 businessRouter.get('/:id', controller.getBusinessesID)
 
