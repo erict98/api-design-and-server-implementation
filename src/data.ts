@@ -1,16 +1,21 @@
-export interface Data {
+export interface Collection {
     users: {
-        id: string
-        businesses: string[]
-        reviews: string[]
-    }[],
-    businesses: {
-        businessName: string,
-        id: string,
-        ratings: number,
-        reviews: {
+        [user: string] : {
             id: string,
-            review: string
+            businesses: string[],
+            reviews: string[]
         }
-    }[]
+    },
+    businesses: {
+        [business: string] : {
+            businessName: string,
+            id: string,
+            reviews: {
+                [id: string] : {
+                rating: string,
+                review: string
+                }
+            }
+        }
+    }
 }

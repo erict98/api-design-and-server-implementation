@@ -3,19 +3,19 @@ import userRouter from './user/route'
 import businessRouter from './business/route'
 import usersJSON from './users.json'
 import businessesJSON from './businesses.json'
-import { Data } from './data';
+import { Collection } from './data';
+import bodyParser from 'body-parser';
 
 const app: Application = express();
-const PORT: number = 6000;
+const PORT: number = 3000;
+app.use(bodyParser.urlencoded({
+    extended: true
+}));
 
-var collection: Data = {
-    users = usersJSON
-}
-
-for (let i = 0; i < usersJSON.length; i++) {
-    let data = usersJSON[i];
-    let name = data['name']
-    console.log(collection)
+// Reads from JSON files to populate the Object
+var collection: Collection = {
+    users : usersJSON,
+    businesses : businessesJSON,
 }
 
 app.get('/', (req:Request, res:Response):void => {
@@ -26,7 +26,7 @@ app.listen(PORT, ():void => {
     console.log(`Server is running on http://localhost:${PORT}.`)
 })
 
-//app.use('/users', userRouter(data))
+app.use('/users', userRouter(collection))
 
 app.use('/businesses', businessRouter(collection))
 

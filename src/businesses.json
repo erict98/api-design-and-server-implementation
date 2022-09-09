@@ -1,10 +1,20 @@
-[
-    {
-        "name" : "a",
-        "owner" : "1",
-        "ratings" : 1,
-        "reviews" : {
-            "2" : "This place is horrible!"
-        }
+{   
+    "a" : {
+        "businessName" : "a",
+        "id" : "1",
+        "reviews" : 
+            { "2" : {
+            "rating" : "1",
+            "review" : "This place is horrible!"
+        }}
+    },
+    "b" : {
+        "businessName" : "b",
+        "id" : "2",
+        "reviews" : 
+            { "1" : {
+            "rating" : "5",
+            "review" : "This place has a good variety of stores!"
+        }}
     }
-]
+}

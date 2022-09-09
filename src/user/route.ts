@@ -8,23 +8,20 @@ var userRouter = function(data: Collection) {
     // GET
     router.get('/', controller.getUsers(data))
 
-    // PUT
-    router.put('/:id/:business', controller.postUsersBusinesses(data))
+    router.get('/:id', controller.getUsersID(data))
+
+    router.get('/:id', controller.getUsersBusinesses(data))
+
+    router.get('/:id', controller.getUsersReviews(data))
+
+    // POST
+    router.post('/:id', controller.postUsers(data))
+    
+    // PATCH
+    router.patch('/:id', controller.patchUsers(data))
 
     return router
 }
 
-// GET
-
-// userRouter.get('/:id/businesses', controller.getUsersBusinesses)
-/*
-userRouter.get('/:id/review', controller.getUsersReview)
-
-
-// PATCH
-userRouter.patch('/:id/:business', controller.patchUsersBusinesses)
-
-// DELETE
-userRouter.delete('/:id/:business', controller.deleteUsersBusiness)*/
 
 export default userRouter
