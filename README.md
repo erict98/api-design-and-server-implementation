@@ -22,15 +22,13 @@ Your first task for this assignment is to design a RESTful API (i.e. API endpoin
 
     Note that a user may write at most one review of any business.
 
-  [] Users may modify or delete any review they've written.
+  [X] Users may modify or delete any review they've written.
 
-  [] Users may list all of the businesses they own.
+  [X] Users may list all of the businesses they own.
 
-  [] Users may list all of the reviews they've written.
+  [X] Users may list all of the reviews they've written.
 
 As you're designing your API think about what responses will need to be paginated.  Think also about what links to other API resources might be useful to return in a response from a given API endpoint (i.e. how your API will implement HATEOAS).  Some of the API endpoints you implement will need some form of authentication.  For now, you may make note of this, but you don't need to worry about it for this assignment.
-
-There is no formal deliverable for this part of the assignment, but it will be useful to go through the exercise of designing your API before implementing it.
 
 ## 2. Implement a server for your API
 
