@@ -57,22 +57,3 @@ There is no formal testing requirement for this assignment, but be prepared to s
 ## 3. Write an OpenAPI specification for your API
 
 Finally, write an OpenAPI specification for your API.  For each endpoint of your API, your OpenAPI specification should list the HTTP methods accepted by the endpoint along with specifications for their request and response bodies and the HTTP status codes they use.
-
-## Submission
-
-We'll be using GitHub Classroom for this assignment, and you will submit your assignment via GitHub.  Just make sure your completed files are committed and pushed by the assignment's deadline to the master branch of the GitHub repo that was created for you by GitHub Classroom.  A good way to check whether your files are safely submitted is to look at the master branch your assignment repo on the github.com website (i.e. https://github.com/OSU-CS493-Sp18/assignment-1-YourGitHubUsername/). If your changes show up there, you can consider your files submitted.
-
-## Grading criteria
-
-This assignment is worth 100 total points, broken down as follows:
-
-* 10 points: Signed up for Piazza
-
-* 70 points: Implemented API server
-  * 35 points: API server implements a route to allow each piece of functionality described above
-  * 10 points: API server stores API data in memory
-  * 10 points: API endpoints perform basic verification of route parameters and request bodies
-  * 10 points: API endpoints respond with appropriate HTTP status codes and response bodies
-  * 5 points: API endpoints send paginated responses when appropriate
-
-* 20 points: Wrote OpenAPI specification for API
