@@ -1,0 +1,17 @@
+{
+    "1": {
+        "id": "1",
+        "businesses": ["a"],
+        "reviews": ["b"]
+    },
+    "2": {
+        "id": "2",
+        "businesses": ["b"],
+        "reviews": ["a"]
+    },
+    "3": {
+        "id": "3",
+        "businesses": [],
+        "reviews": []
+    }
+}
