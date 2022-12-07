@@ -1,0 +1,236 @@
+Name,Abilities,HP,Att,Def,S.Att,S.Def,Spd
+Sprigatito,Overgrow,40,61,54,45,45,65
+,Protean,,,,,,
+Floragato,Overgrow,61,80,63,60,63,83
+,Protean,,,,,,
+Meowscarada,Overgrow,76,110,70,81,70,123
+,Protean,,,,,,
+Fuecoco,Blaze,67,45,59,63,40,36
+,Unaware,,,,,,
+Crocalor,Blaze,81,55,78,90,58,49
+,Unaware,,,,,,
+Skeledirge,Blaze,104,75,100,110,75,66
+,Unaware,,,,,,
+Quaxly,Torrent,55,65,45,50,45,50
+,Moxie,,,,,,
+Quaxwell,Torrent,70,85,65,65,60,65
+,Moxie,,,,,,
+Quaquaval,Torrent,85,120,80,85,75,85
+,Moxie,,,,,,
+Lechonk,Aroma Veil,54,45,40,35,45,35
+,Gluttony,,,,,,
+,Thick Fat,,,,,,
+Oinkologne,Lingering Aroma,110,100,75,59,80,65
+,Gluttony,,,,,,
+,Thick Fat,,,,,,
+Dudunsparce,Serene Grace,125,100,80,85,75,55
+,Run Away,,,,,,
+,Rattled,,,,,,
+Dudunsparce,Serene Grace,125,100,80,85,75,55
+,Run Away,,,,,,
+,Rattled,,,,,,
+Tarountula,Insomnia,35,41,45,29,40,20
+,Stakeout,,,,,,
+Spidops,Insomnia,60,79,92,52,86,35
+,Stakeout,,,,,,
+Nymble,Swarm,33,46,40,21,25,45
+,Tinted Lens,,,,,,
+Lokix,Swarm,71,102,78,52,55,92
+,Tinted Lens,,,,,,
+Rellor,Compoundeyes,41,50,60,31,58,30
+,Shed Skin,,,,,,
+Rabsca,Synchronize,75,50,85,115,100,45
+,Telepathy,,,,,,
+Greavard,Pickup,50,61,60,30,55,34
+,Fluffy,,,,,,
+Houndstone,Sand Rush,72,101,100,50,97,68
+,Fluffy,,,,,,
+Flittle,Anticipation,30,35,30,55,30,75
+,Frisk,,,,,,
+,Speed Boost,,,,,,
+Espathra,Opportunist,95,60,60,101,60,105
+,Frisk,,,,,,
+,Speed Boost,,,,,,
+Farigiraf,Cud Chew,120,90,70,110,70,60
+,Armor Tail,,,,,,
+,Sap Sipper,,,,,,
+Wiglett,Gooey,10,55,25,35,25,95
+,Rattled,,,,,,
+,Sand Veil,,,,,,
+Wugtrio,Gooey,35,100,50,50,70,120
+,Rattled,,,,,,
+,Sand Veil,,,,,,
+Dondozo,Unaware,150,100,115,65,65,35
+,Oblivious,,,,,,
+,Water Veil,,,,,,
+Veluza,Mold Breaker,90,102,73,78,65,70
+,Sharpness,,,,,,
+Finizen,Water Veil,70,45,40,45,40,75
+Palafin,Zero to Hero,100,70,72,53,62,100
+,,100,160,97,106,87,100
+Smoliv,Early Bird,41,35,45,58,51,30
+,Harvest,,,,,,
+Dolliv,Early Bird,52,53,60,78,78,33
+,Harvest,,,,,,
+Arboliva,Seed Sower,78,69,90,125,109,39
+,Harvest,,,,,,
+Capsakid,Chlorophyll,50,62,40,62,40,50
+,Insomnia,,,,,,
+,Klutz,,,,,,
+Scovillain,Chlorophyll,65,108,65,108,65,75
+,Insomnia,,,,,,
+,Moody,,,,,,
+Tadbulb,Own Tempo,61,31,41,59,35,45
+,Static,,,,,,
+,Damp,,,,,,
+Bellibolt,Electromorphosis,109,64,91,103,83,45
+,Static,,,,,,
+,Damp,,,,,,
+Varoom,Overcoat,45,70,63,30,45,47
+,Slow Start,,,,,,
+Revavroom,Overcoat,80,119,90,54,67,90
+,Filter,,,,,,
+Orthworm,Earth Eater,70,85,145,60,55,65
+,Sand Veil,,,,,,
+Tandemaus,Run Away,50,50,45,40,45,75
+,Pickup,,,,,,
+,Own Tempo,,,,,,
+Maushold,Friend Guard,74,75,70,65,75,111
+,Cheek Pouch,,,,,,
+,Technician,,,,,,
+Maushold,Friend Guard,74,75,70,65,75,111
+,Cheek Pouch,,,,,,
+,Technician,,,,,,
+Cetoddle,Thick Fat,108,68,45,30,40,43
+,Snow Cloak,,,,,,
+,Sheer Force,,,,,,
+Cetitan,Thick Fat,170,113,65,45,55,73
+,Slush Rush,,,,,,
+,Sheer Force,,,,,,
+Frigibax,Thermal Exchange,65,75,45,35,45,55
+,Ice Body,,,,,,
+Arctibax,Thermal Exchange,90,95,66,45,65,62
+,Ice Body,,,,,,
+Baxcalibur,Thermal Exchange,115,145,92,75,86,87
+,Ice Body,,,,,,
+Tatsugiri,Commander,68,50,60,120,95,82
+,Storm Drain,,,,,,
+Cyclizar,Shed Skin,70,95,65,85,65,121
+,Regenerator,,,,,,
+Pawmi,Static,45,50,20,40,25,60
+,Natural Cure,,,,,,
+,Iron Fist,,,,,,
+Pawmo,Volt Absorb,60,75,40,50,40,85
+,Natural Cure,,,,,,
+,Iron Fist,,,,,,
+Pawmot,Volt Absorb,70,115,70,70,60,105
+,Natural Cure,,,,,,
+,Iron Fist,,,,,,
+Wattrel,Wind Power,40,40,35,55,40,70
+,Volt Absorb,,,,,,
+,Competitive,,,,,,
+Kilowattrel,Wind Power,70,70,60,105,60,125
+,Volt Absorb,,,,,,
+,Competitive,,,,,,
+Bombirdier,Big Pecks,70,103,85,60,85,82
+,Keen Eye,,,,,,
+,Rocky Payload,,,,,,
+Squawkabilly (Green Plumage),Intimidate,82,96,51,45,51,92
+,Hustle,,,,,,
+,Guts,,,,,,
+Squawkabilly (Blue Plumage),Intimidate,82,96,51,45,51,92
+,Hustle,,,,,,
+,Guts,,,,,,
+Squawkabilly (White Plumage),Intimidate,82,96,51,45,51,92
+,Hustle,,,,,,
+,Sheer Force,,,,,,
+Squawkabilly (Yellow Plumage),Intimidate,82,96,51,45,51,92
+,Hustle,,,,,,
+,Sheer Force,,,,,,
+Flamigo,Scrappy,82,115,74,75,64,90
+,Tangled Feet,,,,,,
+,Costar,,,,,,
+Klawf,Anger Shell,70,100,115,35,55,75
+,Shell Armor,,,,,,
+,Regenerator,,,,,,
+Nacli,Purifying Salt,55,55,75,35,35,25
+,Sturdy,,,,,,
+,Clear Body,,,,,,
+Naclstack,Purifying Salt,60,60,100,35,65,35
+,Sturdy,,,,,,
+,Clear Body,,,,,,
+Garganacl,Purifying Salt,100,100,130,45,90,35
+,Sturdy,,,,,,
+,Clear Body,,,,,,
+Glimmet,Toxic Debris,48,35,42,105,60,60
+,Corrosion,,,,,,
+Glimmora,Toxic Debris,83,55,90,130,81,86
+,Corrosion,,,,,,
+Shroodle,Unburden,40,65,35,40,35,75
+,Pickpocket,,,,,,
+,Prankster,,,,,,
+Grafaiai,Unburden,63,95,65,80,72,110
+,Poison Touch,,,,,,
+,Prankster,,,,,,
+Fidough,Own Tempo,37,55,70,30,55,65
+,Klutz,,,,,,
+Dachsbun,Well-Baked Body,57,80,115,50,80,95
+,Aroma Veil,,,,,,
+Maschiff,Intimidate,60,78,60,40,51,51
+,Run Away,,,,,,
+,Stakeout,,,,,,
+Mabosstiff,Intimidate,80,120,90,60,70,85
+,Guard Dog,,,,,,
+,Stakeout,,,,,,
+Bramblin,Wind Rider,40,65,30,45,35,60
+,Infiltrator,,,,,,
+Brambleghast,Wind Rider,55,115,70,80,70,90
+,Infiltrator,,,,,,
+Gimmighoul,Rattled,45,30,70,75,70,10
+Gholdengo,Good as Gold,87,60,95,133,91,84
+Great Tusk,Protosynthesis,115,131,131,53,53,87
+Brute Bonnet,Protosynthesis,111,127,99,79,99,55
+Sandy Shocks,Protosynthesis,85,81,97,121,85,101
+Scream Tail,Protosynthesis,115,65,99,65,115,111
+Flutter Mane,Protosynthesis,55,55,55,135,135,135
+Slither Wing,Protosynthesis,85,135,79,85,105,81
+Roaring Moon,Protosynthesis,105,139,71,55,101,119
+Iron Treads,Quark Drive,90,112,120,72,70,106
+Iron Moth,Quark Drive,80,70,60,140,110,110
+Iron Hands,Quark Drive,154,140,108,50,68,50
+Iron Jugulis,Quark Drive,94,80,86,122,80,108
+Iron Thorns,Quark Drive,100,134,110,70,84,72
+Iron Bundle,Quark Drive,56,80,114,124,60,136
+Iron Valiant,Quark Drive,74,130,90,120,60,116
+Ting-Lu,Vessel of Ruin,155,110,125,55,80,45
+Chien-Pao,Sword of Ruin,80,120,80,90,65,135
+Wo-Chien,Tablets of Ruin,85,85,100,95,135,70
+Chi-Yu,Beads of Ruin,55,80,80,135,120,100
+Koraidon,Orichalcum Pulse,100,135,115,85,100,135
+Miraidon,Hadron Engine,100,85,100,135,115,135
+Tinkatink,Mold Breaker,50,45,45,35,64,58
+,Own Tempo,,,,,,
+,Pickpocket,,,,,,
+Tinkatuff,Mold Breaker,65,55,55,45,82,78
+,Own Tempo,,,,,,
+,Pickpocket,,,,,,
+Tinkaton,Mold Breaker,85,75,77,70,105,94
+,Own Tempo,,,,,,
+,Pickpocket,,,,,,
+Charcadet,Flash Fire,40,50,40,50,40,35
+,Flame Body,,,,,,
+Armarouge,Flash Fire,85,60,100,125,80,75
+,Weak Armor,,,,,,
+Ceruledge,Flash Fire,75,125,80,60,100,85
+,Weak Armor,,,,,,
+Toedscool,Mycelium Might,40,40,35,50,100,70
+Toedscruel,Mycelium Might,80,70,65,80,120,100
+Kingambit,Defiant,100,135,120,60,85,50
+,Supreme Overlord,,,,,,
+,Pressure,,,,,,
+Clodsire,Poison Point,130,75,60,45,100,20
+,Water Absorb,,,,,,
+,Unaware,,,,,,
+Annihilape,Vital Spirit,110,115,80,50,90,90
+,Inner Focus,,,,,,
+,Defiant,,,,,,

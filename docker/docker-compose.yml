@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  # MongoDB
+  mongo:
+    image: mongo:latest
+    container_name: mongo-server
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: password
+      MONGO_INITDB_DATABASE: admin
+    ports:
+      - 27017:27017
+    volumes:
+      - ./mongo/docker-entrypoint-initdb.d/mongo-init.js:/mongo/docker-entrypoint-initdb.d/mongo-init.js:ro
+      # used for persistent data - ./var/lib/mongodb
+

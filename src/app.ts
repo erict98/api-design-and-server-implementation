@@ -1,35 +1,40 @@
-import express, { Request, Response, NextFunction, Application } from 'express';
-import userRouter from './user/route'
-import businessRouter from './business/route'
-import usersJSON from './users.json'
-import businessesJSON from './businesses.json'
-import { Collection } from './data';
-import bodyParser from 'body-parser';
+// npm run dev
 
+import express, { Request, Response, NextFunction, Application } from 'express';
+import bodyParser from 'body-parser';
+import { mongoclient } from './db'
+
+// Creates the Express application
 const app: Application = express();
 const PORT: number = 3000;
 app.use(bodyParser.urlencoded({
     extended: true
 }));
 
-// Reads from JSON files to populate the Object
-var collection: Collection = {
-    users : usersJSON,
-    businesses : businessesJSON,
-}
-
+// TODO create homepage to make HTTP requests
 app.get('/', (req:Request, res:Response):void => {
-    res.send("HOME PAGE")
+    res.send(`Please make API requests to http://localhost:${PORT}`)
 })
 
-app.listen(PORT, ():void => {
-    console.log(`Server is running on http://localhost:${PORT}.`)
-})
+var client = mongoclient
+async function main() {
+    try {
+        await client.connect()
+        app.listen(PORT, ():void => {
+            console.log(`Server is running on http://localhost:${PORT}`)
+        })
 
-app.use('/users', userRouter(collection))
+        const db = client.db('dex')
+        const collection = db.collection('SV')
 
-app.use('/businesses', businessRouter(collection))
+        // Binds the middlewares to instance of app
+        const dataRouter = require('./routes/dataRouter')
+        app.use('/data', dataRouter(collection))
 
-
+    } catch (err) {
+        console.error(err)
+    }
+}
+main()
 
 
