@@ -32,6 +32,7 @@ db.SV.insertOne({'pokemon':'information'})
 
 # builds the web server image
 docker build -t web .
+
 # creates web server in the test network
 docker run -d -it                       \
     --name web-server                   \
@@ -39,3 +40,5 @@ docker run -d -it                       \
     -p 3000:3000                        \
     -e PORT=3000                        \
     web:latest
+
+    # change db hostname
