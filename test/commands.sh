@@ -37,8 +37,6 @@ docker build -t web .
 docker run -d -it                       \
     --name web-server                   \
     --network test-network              \
-    -p 3000:3000                        \
-    -e PORT=3000                        \
+    -p 8000:8000                        \
+    -e PORT=8000                        \
     web:latest
-
-    # change db hostname

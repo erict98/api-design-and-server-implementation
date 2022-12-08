@@ -11,7 +11,7 @@ services:
     ports:
       - 27017:27017
     volumes:
-      - ./docker/mongo/docker-entrypoint-initdb.d/mongo-init.js:./docker-entrypoint-initdb.d/mongo-init.js:ro
+      - ./docker/mongo/docker-entrypoint-initdb.d/mongo-init.js:/docker-entrypoint-initdb.d/mongo-init.js:ro
       # used for persistent data - ./var/lib/mongodb
 
   webserver:
