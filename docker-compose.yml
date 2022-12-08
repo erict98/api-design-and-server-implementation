@@ -1,7 +1,6 @@
 version: '3.8'
 
 services:
-  # MongoDB
   mongo:
     image: mongo:latest
     container_name: mongo-server
@@ -12,6 +11,12 @@ services:
     ports:
       - 27017:27017
     volumes:
-      - ./mongo/docker-entrypoint-initdb.d/mongo-init.js:/mongo/docker-entrypoint-initdb.d/mongo-init.js:ro
+      - ./docker/mongo/docker-entrypoint-initdb.d/mongo-init.js:./docker-entrypoint-initdb.d/mongo-init.js:ro
       # used for persistent data - ./var/lib/mongodb
 
+  webserver:
+    build: ./
+    stdin_open: true
+    tty: true
+    ports:
+      - 3000:3000
