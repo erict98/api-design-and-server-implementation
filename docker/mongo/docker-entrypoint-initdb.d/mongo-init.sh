@@ -1,0 +1,1 @@
+mongoimport --uri mongodb://dbAdmin:password@localhost:27017/dex --collection SV --file ./var/pokemon.JSON

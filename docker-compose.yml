@@ -11,12 +11,13 @@ services:
     ports:
       - 27017:27017
     volumes:
-      - ./docker/mongo/docker-entrypoint-initdb.d/mongo-init.js:/docker-entrypoint-initdb.d/mongo-init.js:ro
-      # used for persistent data - ./var/lib/mongodb
+      - ./docker/mongo/var/pokemon.JSON:/var/pokemon.JSON
+      - ./docker/mongo/docker-entrypoint-initdb.d/mongo-init.js:/docker-entrypoint-initdb.d/1.js
+      - ./docker/mongo/docker-entrypoint-initdb.d/mongo-init.sh:/docker-entrypoint-initdb.d/2.sh
 
-  webserver:
-    build: ./
-    stdin_open: true
-    tty: true
-    ports:
-      - 3000:3000
+  #webserver:
+  #  build: ./
+  #  stdin_open: true
+  #  tty: true
+  #  ports:
+  #    - 3000:3000
