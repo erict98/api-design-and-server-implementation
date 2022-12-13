@@ -36,7 +36,7 @@ async function main() {
 }
 main()
 
-// Error-handliung
+// Error-handling
 app.use((err: Error, req: Request, res: Response, next: NextFunction) => {
     console.error(err.stack)
     res.status(500).send('Something broke!')
