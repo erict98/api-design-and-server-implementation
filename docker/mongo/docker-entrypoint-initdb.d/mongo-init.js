@@ -1,8 +1,6 @@
 /* Please refer to the docs:
  https://www.mongodb.com/docs/v5.0/tutorial/write-scripts-for-the-mongo-shell/
  https://www.mongodb.com/docs/v5.0/reference/mongo-shell/
-
- new Mongo() not required unless instatiating database
  */
 
 // DB authorization
@@ -20,7 +18,3 @@ db.createUser({
 })
 
 db.createCollection('SV')
-
-// TODO: environment variables
-
-

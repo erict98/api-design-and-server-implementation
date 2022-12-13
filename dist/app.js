@@ -1,5 +1,4 @@
 "use strict";
-// npm run dev
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
@@ -9,14 +8,15 @@ const body_parser_1 = __importDefault(require("body-parser"));
 const db_1 = require("./db");
 // Creates the Express application
 const app = (0, express_1.default)();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 app.use(body_parser_1.default.urlencoded({
     extended: true
 }));
-// TODO create homepage to make HTTP requests
+// Default home page
 app.get('/', (req, res) => {
     res.send(`Please make API requests to http://localhost:${PORT}`);
 });
+// Creates the database connection
 var client = db_1.mongoclient;
 async function main() {
     try {
@@ -35,3 +35,8 @@ async function main() {
     }
 }
 main();
+// Error-handliung
+app.use((err, req, res, next) => {
+    console.error(err.stack);
+    res.status(500).send('Something broke!');
+});

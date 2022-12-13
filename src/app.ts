@@ -1,21 +1,20 @@
-// npm run dev
-
 import express, { Request, Response, NextFunction, Application } from 'express';
 import bodyParser from 'body-parser';
 import { mongoclient } from './db'
 
 // Creates the Express application
 const app: Application = express();
-const PORT: number = 3000;
+const PORT = process.env.PORT || 3000;
 app.use(bodyParser.urlencoded({
     extended: true
 }));
 
-// TODO create homepage to make HTTP requests
+// Default home page
 app.get('/', (req:Request, res:Response):void => {
     res.send(`Please make API requests to http://localhost:${PORT}`)
 })
 
+// Creates the database connection
 var client = mongoclient
 async function main() {
     try {
@@ -37,4 +36,8 @@ async function main() {
 }
 main()
 
-
+// Error-handling
+app.use((err: Error, req: Request, res: Response, next: NextFunction) => {
+    console.error(err.stack)
+    res.status(500).send('Something broke!')
+})
